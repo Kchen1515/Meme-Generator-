@@ -1,1 +1,32 @@
+*{
+  box-sizing: border-box;
+}
 
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+
+
+/* header section*/
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(#672280,#A626D3);
+  padding: 1em 2em;
+
+ 
+}
+
+.title{
+  margin-right: auto;
+}
+.troll-img{
+  width:4em;
+  padding-left: 1em;
+}
